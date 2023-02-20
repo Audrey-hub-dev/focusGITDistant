@@ -5,7 +5,6 @@ var addButton = document.getElementsByTagName("button")[0];//first button
 var incompleteTasksHolder = document.getElementById("incomplete-tasks"); //incomplete-tasks
 var completedTasksHolder = document.getElementById("completed-tasks"); //completed-tasks
 
-//New Task List item
 
 var createNewTaskElement = function(taskString) {
 	// create List Item
